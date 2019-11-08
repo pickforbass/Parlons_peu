@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Parlons peu, parlons bouffe</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id ="header">
@@ -13,19 +13,19 @@
 
         <!-- Menu du site en <ul> -->
         <ul>
-            <li>La tarte au Maroilles</li>
-            <li>La tarte au Sucre</li>
-            <li>La bière du Nord</li>
-            <li>La fricadelle</li>
-            <li>La cramique</li>
+            <a href="#tarte_maroille"><li>La tarte au Maroilles</li></a>
+            <a href="#"> <li>La tarte au Sucre</li></a>
+            <a href="#"> <li>La bière du Nord</li></a>
+            <a href="#">  <li>La fricadelle</li></a>
+            <a href="#">  <li>La cramique</li></a>
         </ul>
     </div>
     <div id ="content">
         <!-- Classe générale pour les images
         Tarte au Maroilles -->
-        <div class="img">
-            <img src="images/TarteMaroilles.png" height="400" width="500" alt="tarteMaroilles">
-        </div>
+        <div class="img" id="tarte_maroille">
+            <img src="images/TarteMaroilles.png" alt="tarteMaroilles">
+
         <!-- Classe générale pour les textes -->
         <div class="txt">
             <p>
@@ -35,7 +35,13 @@
             </p>
         </div>
 
+        </div>
+
         <!-- Tarte au sucre -->
+        <div class="img">
+            <img src="images/TarteSucre.png" height="400" width="500" alt="tarteSucre">
+
+
         <div class="txt">
             <p>
                 Tarte typique du Nord mais aussi Belgique qui peux prendre différentes formes, généralement en pâte levée
@@ -43,14 +49,11 @@
                 et parfois d'œufs.
             </p>
         </div>
-        <div class="img">
-            <img src="images/TarteSucre.png" height="400" width="500" alt="tarteSucre">
         </div>
 
         <!-- Les bières -->
         <div class="img">
             <img src="images/biere.png" height="400" width="500" alt="bieres">
-        </div>
 
         <div class="txt">
             <p>
@@ -58,12 +61,12 @@
                 bières comme la Jenlain, la Cht'i, les Trois Monts. Attention, à consommer avec modération !
             </p>
         </div>
-
-        <!-- Les fricadelles -->
-        <div class="txt">
-            <img src="images/Fricadelles.png" height="400" width="500" alt="fricadelles">
         </div>
+        <!-- Les fricadelles -->
         <div class="img">
+            <img src="images/Fricadelles.png" height="400" width="500" alt="fricadelles">
+
+        <div class="txt">
             <p>
                 La fricadelle (ou fricandelle) est une préparation à base de viande cuisinée, spécialité du nord de la France).
                 Au XXIe siècle, la fricadelle est généralement en forme de saucisse panée, d'une quinzaine de centimètres
@@ -72,12 +75,10 @@
                 Il existe des fricadelles à la viande de porc et des fricadelles au poulet.
             </p>
         </div>
-
+        </div>
         <!-- La cramique -->
         <div class="img">
             <img src="images/Cramique.png" height="400" width="500" alt="cramique">
-        </div>
-
 
         <div class="txt">
             <p>
@@ -89,7 +90,7 @@
                 à la combinaison du moelleux de sa pâte et des raisins dont il est fourré.
             </p>
         </div>
-
+        </div>
     <div id ="footer">
 
     </div>
