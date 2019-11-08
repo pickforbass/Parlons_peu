@@ -2,110 +2,96 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
     <title>Parlons peu, parlons bouffe</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id ="header">
-        <!-- Titre du site -->
-        <h1>Parlons peu, parlons bouffe</h1>
+<header>
+<h1>Parlons peu, parlons bouffe</h1>
+   <nav id="menu">
+       <div class="menu">La tarte au Maroilles</div>
+       <div class="menu">La tarte au sucre</div>
+       <div class="menu">Les bières</div>
+       <div class="menu">La fricadelle</div>
+       <div class="menu">La cramique</div>
 
-        <!-- Menu du site en <ul> -->
-        <ul>
-            <li>La tarte au Maroilles</li>
-            <li>La tarte au Sucre</li>
-            <li>La bière du Nord</li>
-            <li>La fricadelle</li>
-            <li>La cramique</li>
-        </ul>
+   </nav>
+</header>
+
+<div class="container" id="tarte_maroilles">
+    <img src="images/TarteMaroilles.png" height="400" width="500" alt="tarteMaroilles">
+    <div class="texte">
+        <h2>La tarte au Maroilles</h2>
+        <p class="textebase">
+            Fromage d’appellation d’origine protégée des Hauts-de-France, le maroilles possède une pâte levée, moelleuse
+            et aérée. En garniture de tarte, il devient un plat simple à partager, qu’on peut accompagner d’une salade
+            et d’une bière.
+        </p>
     </div>
-    <div id ="content">
-        <!-- Classe générale pour les images
-        Tarte au Maroilles -->
-        <div class="img">
-            <img src="images/TarteMaroilles.png" height="400" width="500" alt="tarteMaroilles">
-        </div>
-        <!-- Classe générale pour les textes -->
-        <div class="txt">
-            <p>
-                Fromage d’appellation d’origine protégée des Hauts-de-France, le maroilles possède une pâte levée, moelleuse
-                et aérée. En garniture de tarte, il devient un plat simple à partager, qu’on peut accompagner d’une salade
-                et d’une bière.
-            </p>
-        </div>
-
-        <!-- Tarte au sucre -->
-        <div class="txt">
-            <p>
-                Tarte typique du Nord mais aussi Belgique qui peux prendre différentes formes, généralement en pâte levée
-                garnie de sucre de betterave ou de cassonade, nom local de la vergeoise, ainsi que de beurre ou de crème
-                et parfois d'œufs.
-            </p>
-        </div>
-        <div class="img">
-            <img src="images/TarteSucre.png" height="400" width="500" alt="tarteSucre">
-        </div>
-
-        <!-- Les bières -->
-        <div class="img">
-            <img src="images/biere.png" height="400" width="500" alt="bieres">
-        </div>
-
-        <div class="txt">
-            <p>
-                Le Nord-Pas-de-Calais est la deuxième région brassicole de France après l'Alsace. La région propose de nombreuses
-                bières comme la Jenlain, la Cht'i, les Trois Monts. Attention, à consommer avec modération !
-            </p>
-        </div>
-
-        <!-- Les fricadelles -->
-        <div class="txt">
-            <img src="images/Fricadelles.png" height="400" width="500" alt="fricadelles">
-        </div>
-        <div class="img">
-            <p>
-                La fricadelle (ou fricandelle) est une préparation à base de viande cuisinée, spécialité du nord de la France).
-                Au XXIe siècle, la fricadelle est généralement en forme de saucisse panée, d'une quinzaine de centimètres
-                de long. Elle est souvent servie dans les friteries.
-                Ce « snack » traditionnel est majoritairement composé de viande hachée, d'épices et de chapelure pour la panure.
-                Il existe des fricadelles à la viande de porc et des fricadelles au poulet.
-            </p>
-        </div>
-
-        <!-- La cramique -->
-        <div class="img">
-            <img src="images/Cramique.png" height="400" width="500" alt="cramique">
-        </div>
+</div>
 
 
-        <div class="txt">
-            <p>
-                Le cramique (ou kramiek en flamand) est un pain brioché belge fourré de raisins secs. C’est une recette qu’on
-                retrouve, à l’origine, dans les trois régions de Belgique : la Flandre, la Wallonie et Bruxelles Capitale, ainsi
-                que dans le Nord de la France et au Luxembourg.
-                Il est généralement consommé au petit déjeuner et au goûter, le plus souvent tranché, avec du beurre, de la confiture
-                ou du cacao. On le sert aussi nature ou pour accompagner le foie gras sous forme de tranches grillées. Il doit son succès
-                à la combinaison du moelleux de sa pâte et des raisins dont il est fourré.
-            </p>
-        </div>
-
-    <div id ="footer">
-
-
-
-                <p> copyright: Parlons peu Parlons bouffe</p>
-        <p>Mention légale</p>
-                <p> Retrouvez nous sur les reseaux sociaux</p>
-                <div class="résaux sociaux">
-                    <img src="images/facebook.jpg"  width="200px" alt="facebook">
-                    <img src="images/instagram.jpg" width="200px" alt="instagram">
-                    <img src="images/twitter.jpg"   width="200px" alt="twitter">
-                </div>
-
+<div class="container" id="tarte_sucre">
+    <img src="images/TarteSucre.png" height="400" width="500" alt="tarteSucre">
+    <div class="texte">
+        <h2>La tarte au sucre</h2>
+        <p class="textebase">
+            Tarte typique du Nord mais aussi Belgique qui peux prendre différentes formes, généralement en pâte levée
+            garnie de sucre de betterave ou de cassonade, nom local de la vergeoise, ainsi que de beurre ou de crème
+            et parfois d'œufs.
+        </p>
     </div>
-
+</div>
+<div class="container" id="bière_nord">
+    <img src="images/biere.png" height="400" width="500" alt="bieres">
+    <div class="texte">
+        <h2>Les bières</h2>
+        <p class="textebase">
+            Le Nord-Pas-de-Calais est la deuxième région brassicole de France après l'Alsace. La région propose de nombreuses
+            bières comme la Jenlain, la Cht'i, les Trois Monts. Attention, à consommer avec modération !
+        </p>
     </div>
+</div>
+<div class="container" id="fricadelle">
+    <img src="images/Fricadelles.png" height="400" width="500" alt="fricadelles">
+    <div class="texte">
+        <h2>Les fricadelles</h2>
+        <p class="textebase">
+            La fricadelle (ou fricandelle) est une préparation à base de viande cuisinée, spécialité du nord de la France).
+            Au XXIe siècle, la fricadelle est généralement en forme de saucisse panée, d'une quinzaine de centimètres
+            de long. Elle est souvent servie dans les friteries.
+            Ce « snack » traditionnel est majoritairement composé de viande hachée, d'épices et de chapelure pour la panure.
+            Il existe des fricadelles à la viande de porc et des fricadelles au poulet.
+        </p>
+    </div>
+</div>
+<div class="container" id="cramique">
+    <img src="images/Cramique.png" height="400" width="500" alt="cramique">
+    <div class="texte">
+        <h2>Le cramique</h2>
+        <p class="textebase">
+            Le cramique (ou kramiek en flamand) est un pain brioché belge fourré de raisins secs. C’est une recette qu’on
+            retrouve, à l’origine, dans les trois régions de Belgique : la Flandre, la Wallonie et Bruxelles Capitale, ainsi
+            que dans le Nord de la France et au Luxembourg.
+            Il est généralement consommé au petit déjeuner et au goûter, le plus souvent tranché, avec du beurre, de la confiture
+            ou du cacao. On le sert aussi nature ou pour accompagner le foie gras sous forme de tranches grillées. Il doit son succès
+            à la combinaison du moelleux de sa pâte et des raisins dont il est fourré.
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>Copyright: Parlons peu Parlons bouffe</p>
+    <p>Mentions légales</p>
+    <p>Retrouvez nous sur les réseaux sociaux</p>
+    <div class="réseaux sociaux">
+        <img src="images/facebook.jpg"  width="200px" alt="facebook">
+        <img src="images/instagram.jpg" width="200px" alt="instagram">
+        <img src="images/twitter.jpg"   width="200px" alt="twitter">
+    </div>
+</footer>
 
 </body>
 </html>
