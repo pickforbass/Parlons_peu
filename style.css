@@ -1,63 +1,79 @@
 body{
-    margin: 0;
     padding: 0;
     background-color: #333;
+    width: 1500px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right:auto ;
+    border: 2px solid white;
 }
+
 /*------------------------HEADER------------------------*/
 header{
     background-color: #fff;
-    box-shadow: 3px 5px 2px black;
+    margin-top: 0;
+
 }
 #LOGO{
     padding-top: 15px;
     height: 120px;
-    margin-left: 650px;
+    margin-left: 400px;
 }
 #menu{
     display: flex;
     justify-content: center;
+    background-color: #ffc300;
+    color: black;
+
 }
 .bouttonMenu{
     padding: 15px 80px 15px 80px;
-    border-right: 3px solid #ffc300;
     text-align: center;
     font-family: "Open Sans Light", serif;
-
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+  }
 .bouttonMenu:hover/*--------------Hover sur bouttons----*/
 {
-    background-color: #ffc300;
+    background-color: #333;
+    transition: .3s ease-in-out;
     color: white;
     font-family: "Open Sans SemiBold", serif;
-    font-size: 18px;
-    transition: .4s ease-in-out;
+
 }
+
 /*------------------------CONTENU------------------------*/
 .photos{
-    margin: 50px 50px 50px 80px;
+    margin: 100px 80px 0 80px;
     border: 2px solid white;
     cursor: pointer;
+    width: 600px;
+    transition: transform .5s ease;
 }
-.photos:hover{
-    transform: scale(1.1);
-    transition: .4s ease-out;
+.photos:hover {
+    transform: scale(1.2);
+    box-shadow: 3px 5px 5px black;
 }
+
+
 .texte{
     width: 600px;
     text-align: justify;
     line-height: 30px;
+    font-family: "Open Sans Light", serif;
+    color: white;
+    margin-top: 100px;
 }
 h2{
     font-size: 45px;
     font-family: bromello, serif;
     color: #ffc300;
-    margin-top: 234px;
-}
 
-p{
-    font-family: "Open Sans Light", serif;
-    color: white;
-}
+   }
+
 
 /*--------images----------*/
 
@@ -68,13 +84,22 @@ p{
 #bière_nord{display: flex}
 /*------------------------FOOTER------------------------*/
 
-footer{
-    background-color: #740E1D;
-    display: flex;
-    justify-items: center;
-}
-.reseaux_sociaux
-{
-    text-align: center;
+#bouttonUP{
+    float: right;
 
+}
+footer{
+    margin-top: 100px;
+    background-color: #740E1D;
+    justify-content: center;
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding:30px;
+}
+
+#reseaux_sociaux{
+    float: right;
+    margin-top: -55px;
 }
