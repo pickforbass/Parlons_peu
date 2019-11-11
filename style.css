@@ -1,105 +1,100 @@
 body{
+    margin: 0 auto 0 auto ;
     padding: 0;
-    background-color: #333;
+    background-color:#333 ;
     width: 1500px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right:auto ;
-    border: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
-
-/*------------------------HEADER------------------------*/
 header{
-    background-color: #fff;
-    margin-top: 0;
-
-}
-#LOGO{
-    padding-top: 15px;
-    height: 120px;
-    margin-left: 400px;
+    background-color: white;
 }
 #menu{
     display: flex;
     justify-content: center;
     background-color: #ffc300;
     color: black;
-
 }
-.bouttonMenu{
-    padding: 15px 80px 15px 80px;
-    text-align: center;
-    font-family: "Open Sans Light", serif;
+#LOGO{
+    margin-left: 400px;
+    padding-top: 20px;
 }
-
 a{
     text-decoration: none;
     color: inherit;
-  }
-.bouttonMenu:hover/*--------------Hover sur bouttons----*/
-{
-    background-color: #333;
-    transition: .3s ease-in-out;
+    padding: 20px 80px 20px 80px;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+}
+a:hover{
+    transition: .4s ease-in-out;
+    background-color: #333333;
     color: white;
     font-family: "Open Sans SemiBold", serif;
-
 }
-
-/*------------------------CONTENU------------------------*/
 .photos{
-    margin: 100px 80px 0 80px;
-    border: 2px solid white;
-    cursor: pointer;
-    width: 600px;
-    transition: transform .5s ease;
+    width: 700px;
+    margin: 80px 100px 0 0;
+    transition: transform.4s ease-in-out;
 }
-.photos:hover {
+.photos:hover{
     transform: scale(1.2);
+    border-radius: 5px;
+    border: 2px solid white;
     box-shadow: 3px 5px 5px black;
 }
-
-
-.texte{
-    width: 600px;
-    text-align: justify;
-    line-height: 30px;
-    font-family: "Open Sans Light", serif;
+p{
     color: white;
-    margin-top: 100px;
+    font-size: 15px;
+    font-family: "Open Sans",serif;
 }
 h2{
     font-size: 45px;
-    font-family: bromello, serif;
+    font-family: bromello,serif;
     color: #ffc300;
-
-   }
-
-
-/*--------images----------*/
-
-#tarte_maroilles{display: flex}
-#fricadelle{display: flex}
-#tarte_sucre{display: flex}
-#cramique{display: flex}
-#bière_nord{display: flex}
-/*------------------------FOOTER------------------------*/
+}
+.texte{
+    width: 500px;
+    text-align: justify;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+#tarte_maroilles{
+    display: flex;
+    justify-content: center;
+}
+#tarte_sucre{
+    display: flex;
+    justify-content: center;
+}
+#cramique{
+    display: flex;
+    justify-content: center;
+}
+#bière_nord{
+    display: flex;
+    justify-content: center;
+}
+#fricadelle{
+    display: flex;
+    justify-content: center;
+}
 
 #bouttonUP{
-    float: right;
-
+    float:right;
 }
+
 footer{
-    margin-top: 100px;
-    background-color: #740E1D;
-    justify-content: center;
-    color: white;
-    font-family: "Open Sans", serif;
-    font-size: 12px;
+    background-color:#740E1D ;
+    font-family: "Open Sans",serif;
+    font-size: 10px;
     letter-spacing: 2px;
     padding:30px;
+    margin-top: 100px;
 }
-
 #reseaux_sociaux{
     float: right;
-    margin-top: -55px;
+    margin-top: -54px;
+    margin-right: 70px;
 }
