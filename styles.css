@@ -43,14 +43,15 @@ a:hover{
     border: 2px solid white;
     box-shadow: 3px 5px 5px black;
 }
+
 p{
     color: white;
     font-size: 15px;
     font-family: "Open Sans",serif;
 }
 h2{
-    font-size: 45px;
-    font-family: bromello,serif;
+    font-size: 55px;
+    font-family: bromello, serif;
     color: #ffc300;
 }
 .texte{
@@ -86,7 +87,7 @@ h2{
 }
 
 footer{
-    background-color:#740E1D ;
+    background-color:#ffc300 ;
     font-family: "Open Sans",serif;
     font-size: 10px;
     letter-spacing: 2px;
