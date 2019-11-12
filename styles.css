@@ -1,3 +1,7 @@
+
+
+/*------FONT-------*/
+
 body{
     margin: 0 auto 0 auto ;
     padding: 0;
@@ -44,17 +48,16 @@ a:hover{
     box-shadow: 3px 5px 5px black;
 }
 
-p{
-    color: white;
-    font-size: 15px;
-    font-family: "Open Sans",serif;
-}
+
 h2{
-    font-size: 55px;
-    font-family: bromello, serif;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
     color: #ffc300;
 }
 .texte{
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans",serif;
     width: 500px;
     text-align: justify;
     margin-top: 100px;
@@ -89,10 +92,11 @@ h2{
 footer{
     background-color:#ffc300 ;
     font-family: "Open Sans",serif;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 2px;
     padding:30px;
     margin-top: 100px;
+    color: black;
 }
 #reseaux_sociaux{
     float: right;
