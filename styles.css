@@ -82,7 +82,7 @@ h2{
     justify-content: center;
 }
 
-#bouttonUP{
+.bouttonUP{
     float:right;
 }
 
@@ -96,6 +96,6 @@ footer{
 }
 #reseaux_sociaux{
     float: right;
-    margin-top: -54px;
+    margin-top: -80px;
     margin-right: 70px;
 }
